@@ -1,0 +1,122 @@
+body{
+    overflow-x: hidden;
+}
+.globosoftimg{
+    width:40%;
+}
+.flx{
+    font-size: 15px;
+    margin-left: 40% ;
+    margin-top: -4%;
+}
+.btn1{
+    border: none;
+}
+
+#icons{
+    color: red;
+}
+.globosoft1{
+    width:40%;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: rosybrown;
+}
+.imgdiv{
+    margin-top: -42%;
+    margin-bottom: 22%;
+}
+.pcel{
+    font-size: 25px;
+    font-weight: 600;
+}
+.btn2{
+    border: 2px solid red;
+    border-radius: 3px;
+    width:13%;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    margin-right: 1%;
+}
+.btn3{
+    border: 2px solid red;
+    border-radius: 3px;
+    width:15%;
+    background-color: white;
+    padding: 5px;
+}
+.txt{
+    text-align: center;
+}
+.card-img-top{
+    width:50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.btn-primary{
+    margin-left: 20%;
+    border-radius: 30px;
+    width:60%;
+    background-color: white;
+    border: 1px solid red;
+    color: red
+}
+.disp{
+    width: 40%;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 4px 4px rgb(0,0,0,0.2);
+    padding:25px
+}
+
+@media only screen and (max-device-width: 425px){
+    .nav-link{
+        display: none;
+    }
+    .ss{
+        border: none;
+        margin-left: 180px;
+        margin-top: -30px;
+    }
+    .ss:focus{
+        border: none;
+    }
+
+    .about{
+        background: rgb(255, 249, 241);
+    }
+    .aboutImg{
+        width:100%;
+        margin-top:30%;
+    }
+    .pcel{
+        font-size: 15px;
+        margin-top: -60%;
+    }
+    .hh{
+        font-size: 20px;
+        margin-top: -5%;
+    }
+    .rr{
+        margin-top: -5%;
+    }
+    .btn2, .btn3{
+        width:40%;
+        font-size:12px;
+    }
+    .txt{
+        margin-top: -10%;
+    }
+
+}
